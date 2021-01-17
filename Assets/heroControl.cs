@@ -20,6 +20,6 @@ public class heroControl : MonoBehaviour {
         xVelAdj = Input.GetAxis("xMove");
         yVelAdj = Input.GetAxis("yMove");
 
-        GetComponent<Rigidbody>().velocity = new Vector3 (3 * xVelAdj, 3 * yVelAdj, 0);
+        GetComponent<Rigidbody>().velocity = new Vector3 (20 * xVelAdj, 20 * yVelAdj, 0);
     }
 }
